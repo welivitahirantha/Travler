@@ -594,7 +594,6 @@ a {
 .block {
   --padding-verticle: 6rem;
   padding: var(--padding-verticle) 2rem;
-  border: 2px solid red;
   text-align: center;
 }
 
@@ -623,4 +622,9 @@ a {
 .block--skewed-left {
   padding-bottom: calc(var(--padding-verticle) + 4rem);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
